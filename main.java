@@ -3,6 +3,7 @@ public class main {
     public static void main(String[] args) {
         // Create a graph with 5 vertices
         Graph graph = new Graph(5);
+        test
 
         // Add edges to the graph
         graph.addEdge(0, 1);

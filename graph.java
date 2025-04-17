@@ -9,6 +9,7 @@ public class graph {
         this.vertices = vertices;
         this.edges = edges;
         adjacencyMatrix = new boolean[vertices][vertices];
+        test
     }
 
     // Add an edge to the graph
