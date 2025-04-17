@@ -2,6 +2,7 @@ public class graph {
     // make bfs and dfs
     private int vertices; // Number of vertices
     private int edges; // Number of edges
+    private boolean directed; // Whether the graph is directed or undirected
 
     private boolean[][] adjacencyMatrix; // Adjacency matrix representation
     public graph(int vertices, int edges) {
